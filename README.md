@@ -5,7 +5,9 @@ Internship assessment: a clone-and-redesign of the Conejo Valley Family
 Counseling homepage, rebuilt for the fictional profile of Dr. Maya Reynolds.
 
 ## Setup
+## Live Website
 
+https://maya-reynolds-therapy-wine.vercel.app/
 ```
 npm install
 npm run dev
@@ -57,13 +59,13 @@ public/images/
 - All copy is sourced strictly from the supplied Maya Reynolds profile. No
   invented credentials, pricing, insurance, phone number, email, or
   testimonials.
-- The primary CTA ("Schedule a Free Consultation") anchors to `#contact`,
-  since no real booking system was supplied.
-- Color palette: warm ivory/cream background, muted sage/eucalyptus,
-  dusty rose/terracotta accent, deep charcoal text — chosen deliberately to
-  differ from the original site's colors while preserving its section
-  order and layout rhythm (hero → mission → services → quote → about →
-  approach → office → FAQ → CTA → footer).
+- - The primary CTA ("Schedule a Free Consultation") opens a pre-filled
+  email using `mailto:` so visitors can contact the practice directly.
+- - Color palette: warm ivory/cream background, muted sage/eucalyptus,
+  dusty rose/terracotta accent, and deep charcoal text — chosen deliberately
+  to differ from the original site's colors while preserving the reference
+  site's core page structure and layout rhythm (hero → mission → who I help →
+  areas of expertise → how I work → about/specialty → office → FAQ → CTA → footer).
 - A residual `npm audit` flag exists for a PostCSS version bundled inside
   Next.js's own dependency tree. Fully resolving it requires jumping to
   Next.js 16 (a breaking change); this project intentionally stays on the
